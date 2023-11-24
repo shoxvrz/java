@@ -91,6 +91,11 @@ const age = year - dob;
 
 if(age <= 5){
     alert("You must go to the kindergarden");
-}else if(age >= 5){
-    alert("You must go the the scool");
+}else if(age >= 5 && age <=16 ){
+    alert("You must go the the school");
+}
+else if(age >= 16 && age <=50){
+    alert('You must work');
+}else{
+    alert("train for death")
 }
