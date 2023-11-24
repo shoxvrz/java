@@ -84,11 +84,13 @@ const day = 9;
 //     alert("Men bilmayman");
 //     break;
 // }
-const dob = prompt("When you get out by your Mum");
+const dob = prompt("When you threwn out by your Mum");
 const year = new Date().getFullYear();
 const age = year - dob;
 
 
 if(age <= 5){
-    alert("You must go to the kindergarden")
+    alert("You must go to the kindergarden");
+}else if(age >= 5){
+    alert("You must go the the scool");
 }
